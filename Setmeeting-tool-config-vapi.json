@@ -1,0 +1,49 @@
+{
+  "id": "[CHANGE_ME]",
+  "createdAt": "2024-09-14T09:37:36.032Z",
+  "updatedAt": "2024-09-27T19:54:24.351Z",
+  "type": "function",
+  "function": {
+    "name": "Setmeeting",
+    "async": false,
+    "description": "This tool schedules a meeting.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "description": "The date and time for the meeting in iso8601 format.",
+          "type": "string"
+        },
+        "name": {
+          "description": "The name of the caller",
+          "type": "string"
+        },
+        "about": {
+          "description": "The subject of the meeting.",
+          "type": "string"
+        },
+        "email": {
+          "description": "The email of the caller",
+          "type": "string"
+        },
+        "company": {
+          "description": "The name of the company of the caller",
+          "type": "string"
+        },
+        "phoneNumber": {
+          "description": "The phone number that the caller is calling with.",
+          "type": "string"
+        },
+        "propertyAddress": {
+          "description": "The full address of the property they want to view.",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "orgId": "[CHANGE_ME]",
+  "server": {
+    "url": "https://hook.eu2.make.com/[CHANGE_ME]"
+  },
+  "async": false
+}

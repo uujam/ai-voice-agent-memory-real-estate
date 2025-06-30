@@ -1,0 +1,16 @@
+{
+  "id": "ceac559b-be84-4df6-9655-[CHANGE_ME]",
+  "createdAt": "2024-09-14T09:37:36.476Z",
+  "updatedAt": "2024-11-26T22:50:21.101Z",
+  "type": "function",
+  "function": {
+    "name": "Getavailability",
+    "async": false,
+    "description": "This tool looks too see which time slots are already reserved and therefore unavailable for meetings."
+  },
+  "orgId": "[CHANGE_ME]",
+  "server": {
+    "url": "https://hook.eu2.make.com/[CHANGE_ME]"
+  },
+  "async": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "519bc4a5-72b4-4fea-ab43-[CHANGE_ME]",
+  "createdAt": "2024-09-28T21:21:15.358Z",
+  "updatedAt": "2024-11-02T14:34:40.792Z",
+  "type": "function",
+  "function": {
+    "name": "createSelfBookingLink",
+    "async": false,
+    "description": "Create a self-booking link for the customer",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "The name of the caller",
+          "type": "string"
+        },
+        "about": {
+          "description": "The subject of the meeting",
+          "type": "string"
+        },
+        "phoneNumber": {
+          "description": "The customer's phone number",
+          "type": "string"
+        },
+        "propertyAddress": {
+          "description": "The full address of the property they want to view",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "orgId": "[CHANGE_ME]",
+  "server": {
+    "url": "https://hook.eu2.make.com/[CHANGE_ME]"
+  },
+  "async": true
+}
